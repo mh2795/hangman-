@@ -1,6 +1,6 @@
 # Hangman
 
-This project is a recreation of the classic pen & paper Hangman game built with HTML, CSS & JavaScript! The obejctive of this project was to become more comfortable with front-end development and version control proccesses. 
+This project is a recreation of the classic pen & paper Hangman game built with HTML, CSS & JavaScript! The objective of this project was to become more comfortable with front-end development and version control proccesses. 
 
 ## Getting Started
 
@@ -14,7 +14,7 @@ Defined below are:
 The goal of the game is to guess the word before Mr. Mapunda is hung. You have 6 lives!
 
 
-### How to PLay (Instructions)
+### How to Play (Instructions)
 
 1. Download this repository
 2. Open the index.html file in your browser

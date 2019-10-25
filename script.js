@@ -1,4 +1,3 @@
-//------------------------------------------------------------------------------------//
 const listOfLetters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'];
 const listOfWords = ['Workhorse', 'Snickerdoodle', "Daenerys", 'Awkward', 'Bagpipes', 'Banjo' , 'Bungler' , 'Croquet' , 'Crypt' , 'Dwarves' , 'Fervid' , 'Fishhook' , 'Fjord' , 'Gazebo' , 'Gypsy' , 'Haiku' , 'Haphazard' , 'Hyphen' , 'Ivory' , 'Jazzy' , 'Jiffy' , 'Jinx' , 'Jukebox' , 'Kayak' , 'Kiosk' , 'Klutz' , 'Memento' , 'Mystify' , 'Numbskull' , 'Ostracize' , 'Oxygen' , 'Pajama' , 'Phlegm' , 'Pixel' , 'Polka' , 'Quad' , 'Quip' , 'Rhythmic' , 'Rogue' , 'Sphinx' , 'Squawk' , 'Swivel' , 'Toady' , 'Twelfth' , 'Unzip' , 'Waxy' , 'Wildebeest' , 'Yacht' , 'Zealous' , 'Zigzag' , 'Zippy' , 'Zombie']
 let word = ''
@@ -21,8 +20,6 @@ let letterButtons = function () {
     }
     lettersDiv.appendChild(letters);
 }
-// letterButtons();
-//---------------------^^^This works!^^^^-------------------------------------------//
 let playButton = document.getElementById("play")
 let mainGame = document.getElementById("mainGame")
 let intro = document.getElementById("intro")
@@ -55,7 +52,6 @@ let play = function () {
     console.log(word)
     
 }
-// play();
 
 
 let answer = function () {
@@ -68,12 +64,8 @@ let answer = function () {
       turns.push(turn);
     }
   }
-// answer();
 
 
-// REVIEW LIVESLEFT LINES OF CODE!!//
-
-//------------------------------------------------------------------------------------//
 const lettersDivArray = document.getElementsByClassName("letter");
 const gameEnd = document.getElementById("gameStats")
 let lifeDisplay = document.createElement('p')
@@ -147,9 +139,7 @@ let logic = function() {
     }
 }
 
-// -------------------------------------Canvas Drawings-------------------------------------------//
 
-//pregame canvas setup//
 let c = document.getElementById("canvas");
 let ctx = c.getContext("2d");
 ctx.fillStyle = "grey";
@@ -184,7 +174,6 @@ function hangingThing() {
 hangingThing();
 
 
-//---------------------^^^This works!^^^^-------------------------------------------//
 
 if (c.getContext("2d")) { 
 context = c.getContext("2d"); 
@@ -202,7 +191,7 @@ context = c.getContext("2d");
         context.arc(150, 30, 10, 0, Math.PI, true); 
         context.stroke();
 
-        // eyes
+
         context.beginPath();
         context.fillStyle = "black"; 
         context.arc(140, 15, 2, 0, Math.PI * 2, true); 
@@ -210,7 +199,7 @@ context = c.getContext("2d");
         context.arc(160, 15, 2, 0, Math.PI * 2, true); 
         context.fill();
     }
-    // torso
+
     function torso() {
         context.beginPath();
         context.moveTo(150, 40);
@@ -219,7 +208,7 @@ context = c.getContext("2d");
         context.stroke();
     }
 
-    // left arm
+
     function leftArm() {
         context.beginPath();
         context.strokeStyle = "black";
@@ -228,7 +217,7 @@ context = c.getContext("2d");
         context.stroke();
     }
 
-    // right arm
+
     function rightArm() {
         context.beginPath();
         context.strokeStyle = "black";
@@ -237,7 +226,7 @@ context = c.getContext("2d");
         context.stroke();
     }
 
-    // left leg
+
     function leftLeg() {
         context.beginPath();
         context.strokeStyle = "black";
@@ -245,7 +234,7 @@ context = c.getContext("2d");
         context.lineTo(120, 140);
         context.stroke();
     }
-    // left leg
+
     function rightLeg() {
         context.beginPath();
         context.strokeStyle = "black";
