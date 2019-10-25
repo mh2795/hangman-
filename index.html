@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Turret+Road&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Hangman</h1>
+    <p id= "intro">Fuck! <br> Mr. Mapunda has been captured by rebel forces! <br> Their leader has agreed to spare his life if you are able to correctly guess the word. <br> Ready?</p>
+    <br>
+    <br>
+    <input type="button" value="Play" class="button" id="play">
+    <div id="mainGame" class="hidden">
+        <canvas id="canvas">Hangman Drawing</canvas>
+        <div id="gameStats"></div>
+        <div id="wordInPlay"></div>
+        <div id="letters"></div>
+        <input type="button" value="Play Again" class="button" id="playAgain">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

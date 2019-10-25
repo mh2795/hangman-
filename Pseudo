@@ -1,0 +1,6 @@
+1. Generate a random word.
+2. Take player’s guess.
+3. Check that the player’s guess is a valid letter.
+4. Keep track of letters the player has guessed.
+5. Show the player their progress. (canvas + lives)
+6. Finish when the player has guessed the word.
